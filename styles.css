@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #4169E1;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 100px;
+}
+
+#gameArea {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    border: 2px solid #000;
+    margin: 20px auto;
+    background-color: #FFF000;
+}
+
+#targetButton {
+    position: absolute;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: yes;
+    cursor: pointer;
+    display: none;
+}
+
+button:disabled {
+    background-color: #yellow;
+}
